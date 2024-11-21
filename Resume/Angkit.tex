@@ -1,0 +1,369 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+\usepackage[margin=1.4cm]{geometry}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.15in}
+ \addtolength{\textwidth}{0.3in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{0pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+\usepackage[margin=1.4cm]{geometry}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.15in}
+ \addtolength{\textwidth}{0.3in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{0pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}\vspace{0pt}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Large \scshape Angkit Khadka} \\[2mm]
+    \footnotesize \raisebox{-0.1\height}
+    \faPhone\ \underline{(437) 662-7185} ~ 
+    {\faEnvelope\  \underline{khadkaankit85@gmail.com}} ~ 
+    {\faLinkedin\ \underline{\href{https://www.linkedin.com/in/khadkaankit85/}{linkedin.com/in/khadkaankit85}}} ~
+    {\faGithub\ \underline{\href{https://github.com/khadkaankit85}{github.com/khadkaankit85}}} ~
+    {\faBriefcase\ \underline{\href{https://angkit.com.np/}{angkit.com.np}}}
+    \vspace{-8pt}
+\end{center}
+
+
+ %-----------EDUCATION-----------
+\section{Education} 
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Sault College}{Expected Graduation: April 2025}
+      {Diploma in Computer Programming | Minor Software Development
+      }{Toronto, Canada}
+  \resumeSubHeadingListEnd
+    \resumeItemListStart
+        \resumeItem { \textbf{GPA: 3.9}}
+        \vspace{-7pt}
+        \resumeItem {Courses: System Design, Operating Systems, Database, Programming Paradigms, Algorithms and Data Structures, Intro. to Software Engineering}
+    \resumeItemListEnd
+    \vspace{-12pt}
+%-----------Experience---------------
+\section{Work Experience}
+    \resumeSubHeadingListStart
+                \resumeSubheading{Ronesdy Inc}{May 2024 -- Sep 2024}{Front end Developer}{Toronto} 
+                \resumeItemListStart
+                    \resumeItem{Engineered \textbf{Front end (saas website)}, using \textbf{React, TypeScript} and \textbf{Tailwind}, to comply with app store requirement  for publishing the mobile application, leading to an increase in user engagement  by \textbf{37\%}}
+                    \resumeItem{Contributed in Integrating \textbf{backend} with a \textbf{React Native} app to handle user actions, focusing on \textbf{data caching}, \textbf{api throttling}, and \textbf{form validation} to optimize system performance while maintaining data integrity and security.}
+                    \resumeItem{Collaborated with a fellow developer using \textbf{Git}, managing version control for \textbf{5+ major features} and resolving \textbf{50+ pull requests}, implementing \textbf{branching strategies} to improve team efficiency by \textbf{30\%} and ensuring consistent code quality across \textbf{3+ environments}.}
+                    \resumeItemListEnd
+    \resumeSubHeadingListEnd
+    \vspace{-12pt}
+
+%-----------PROJECTS-----------
+\section{Projects} 
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+   \resumeProjectHeading
+    {\textbf{Restaurant Management API} $|$ \href{https://github.com/khadkaankit85/Restaurant-booking-system-api}{Source Code}} {TypeScript$|$ NodeJS $|$ Express $|$ MySQL}
+    \\[5mm]
+\resumeItemListStart
+    \resumeItem{Engineered a \textbf{RESTful API} using \textbf{Node.js} and \textbf{Express} to manage \textbf{restaurant reservations}, implementing full \textbf{CRUD operations} and \textbf{database normalization} across \textbf{3+ tables} to optimize data storage. Leveraged \textbf{Prisma} for seamless database interactions, improving data retrieval efficiency by \textbf{25\%} and enhancing system functionality to support \textbf{100+ concurrent reservations}.}
+    \resumeItem{Integrated \textbf{MariaDB} to optimize data storage, resulting in \textbf{40\% faster data retrieval} and improved overall system performance. Wrote and executed \textbf{30+ Jest tests} to ensure data integrity and validate \textbf{CRUD operations}, achieving \textbf{95\% test coverage} and reducing bug rates by \textbf{20\%}.}
+    \resumeItem{Encrypted sensitive data with \textbf{Bcrypt} and secured the \textbf{API} with \textbf{JWT authentication} with session token and access token, enabling \textbf{robust role-based access control} to ensure secure and efficient user authorization.}
+\resumeItemListEnd
+\vspace{-20pt}
+\resumeProjectHeading
+            {\textbf{{HR Management System}} $|$ \emph{\href{https://github.com/khadkaankit85/StaffFX}{Source Code}}}{Java $|$ JavaFX $|$ MySQL}
+            \\[5mm]
+          \resumeItemListStart
+           \resumeItem{Built an \textbf{HR management desktop application} with \textbf{JavaFX}, streamlining \textbf{employee} and \textbf{admin workflows}, reducing manual tasks by \textbf{30\%} and improving data management efficiency by \textbf{40\%}. Integrated \textbf{MySQL} for data storage and management, enabling \textbf{CRUD operations} with \textbf{25\% faster data retrieval}. Developed \textbf{3+ modules} for payroll, attendance, and performance tracking, reducing HR task processing time by \textbf{25\%}.}
+           \resumeItem{Designed a custom \textbf{ORM} for abstracting database operations, improving code maintainability by \textbf{20\%} and reducing development time. Incorporated a \textbf{user-friendly GUI} following the \textbf{MVC design pattern}, enabling modularity and enhancing scalability for future feature additions, reducing development time by \textbf{15\%}.}
+           \resumeItem{Implemented \textbf{JUnit tests} for \textbf{user login} functionality, including \textbf{5+ test cases} for valid and invalid login attempts, ensuring robust validation of user credentials, security measures, and error handling. Achieved \textbf{90\% test coverage} for authentication logic, improving system reliability and reducing bug rates.}
+          \resumeItemListEnd
+ \vspace{-17pt}
+ \resumeProjectHeading
+{\textbf{{JokeHub}} $|$ \emph{\href{https://play.google.com/apps/internaltest/4700862159628280575}{Play Store}{ $|$ }\href{https://github.com/khadkaankit85/JokeHub}{Source Code}}}{React Native$|$ TypeScript $|$ Expo}
+\\[5mm]
+\resumeItemListStart
+\resumeItem{Built a \textbf{React Native mobile app} with \textbf{Expo Router}, featuring a database of \textbf{10,000+ jokes} and using \textbf{Context API} for state management. Released the app for \textbf{internal testing} in compliance with Google Play's new requirements, with plans for broader availability following the \textbf{14-day testing phase}.}
+\resumeItem{Released \textbf{multiple versions} of the app on the \textbf{Google Play Store}, configuring \textbf{Expo} and \textbf{React Native} for smooth deployment. Created custom app icons and optimized assets for \textbf{5+ screen sizes}, continuously improving features based on \textbf{100+ user feedbacks} from the testing phase.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\vspace{0pt}
+
+  %-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{   
+     \textbf{Languages}{: TypeScript, JavaScript, Java, SQL, HTML5, CSS, Python, F Sharp} \\[1mm]
+     \textbf{Developer Tools}{: AWS, Postman, Git, Github, Linux, Docker, Jira, NeoVim} \\[1mm]
+     \textbf{Libraries/Frameworks}{: Express, ReactJS, NextJS, NodeJS, MySQL, Mongoose, Prisma,Tailwind CSS} \\ [1mm]
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+ \vspace{3pt}
+\vspace{10pt}
+
+\vspace{-15pt}
+
+
+
+\end{document}
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}\vspace{0pt}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Large \scshape Angkit Khadka} \\[2mm]
+    \footnotesize \raisebox{-0.1\height}
+    \faPhone\ \underline{(437) 662-7185} ~ 
+    {\faEnvelope\  \underline{khadkaankit85@gmail.com}} ~ 
+    {\faLinkedin\ \underline{\href{https://www.linkedin.com/in/khadkaankit85/}{linkedin.com/in/khadkaankit85}}} ~
+    {\faGithub\ \underline{\href{https://github.com/khadkaankit85}{github.com/khadkaankit85}}} ~
+    {\faBriefcase\ \underline{\href{https://angkit.com.np/}{angkit.com.np}}}
+    \vspace{-8pt}
+\end{center}
+
+
+ %-----------EDUCATION-----------
+\section{Education} 
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Sault College}{Expected Graduation: April 2025}
+      {Diploma in Computer Programming | Minor Software Development
+      }{Toronto, Canada}
+  \resumeSubHeadingListEnd
+    \resumeItemListStart
+        \resumeItem { \textbf{GPA: 3.9}}
+        \vspace{-7pt}
+        \resumeItem {Courses: System Design, Operating Systems, Database, Programming Paradigms, Algorithms and Data Structures, Intro. to Software Engineering}
+    \resumeItemListEnd
+    \vspace{-12pt}
+%-----------Experience---------------
+\section{Work Experience}
+    \resumeSubHeadingListStart
+                \resumeSubheading{Ronesdy Inc}{May 2024 -- Sep 2024}{Front end Developer}{Toronto} 
+                \resumeItemListStart
+                    \resumeItem{Engineered \textbf{Front end (saas website)}, using \textbf{React, TypeScript} and \textbf{Tailwind}, to comply with app store requirement  for publishing the mobile application, leading to an increase in user engagement  by \textbf{37\%}}
+                    \resumeItem{Contributed in Integrating \textbf{backend} with a \textbf{React Native} app to handle user actions, focusing on \textbf{data caching}, \textbf{api throttling}, and \textbf{form validation} to optimize system performance while maintaining data integrity and security.}
+                    \resumeItem{Collaborated with a fellow developer using \textbf{Git}, managing version control for \textbf{5+ major features} and resolving \textbf{50+ pull requests}, implementing \textbf{branching strategies} to improve team efficiency by \textbf{30\%} and ensuring consistent code quality across \textbf{3+ environments}.}
+                    \resumeItemListEnd
+    \resumeSubHeadingListEnd
+    \vspace{-12pt}
+
+%-----------PROJECTS-----------
+\section{Projects} 
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+   \resumeProjectHeading
+    {\textbf{Restaurant Management API} $|$ \href{https://github.com/khadkaankit85/Restaurant-booking-system-api}{Source Code}} {TypeScript$|$ NodeJS $|$ Express $|$ MySQL}
+    \\[5mm]
+\resumeItemListStart
+    \resumeItem{Engineered a \textbf{RESTful API} using \textbf{Node.js} and \textbf{Express} to manage \textbf{restaurant reservations}, implementing full \textbf{CRUD operations} and \textbf{database normalization} across \textbf{3+ tables} to optimize data storage. Leveraged \textbf{Prisma} for seamless database interactions, improving data retrieval efficiency by \textbf{25\%} and enhancing system functionality to support \textbf{100+ concurrent reservations}.}
+    \resumeItem{Integrated \textbf{MariaDB} to optimize data storage, resulting in \textbf{40\% faster data retrieval} and improved overall system performance. Wrote and executed \textbf{30+ Jest tests} to ensure data integrity and validate \textbf{CRUD operations}, achieving \textbf{95\% test coverage} and reducing bug rates by \textbf{20\%}.}
+    \resumeItem{Encrypted sensitive data with \textbf{Bcrypt} and secured the \textbf{API} with \textbf{JWT authentication} with session token and access token, enabling \textbf{robust role-based access control} to ensure secure and efficient user authorization.}
+\resumeItemListEnd
+\vspace{-20pt}
+\resumeProjectHeading
+            {\textbf{{HR Management System}} $|$ \emph{\href{https://github.com/khadkaankit85/StaffFX}{Source Code}}}{Java $|$ JavaFX $|$ MySQL}
+            \\[5mm]
+          \resumeItemListStart
+           \resumeItem{Built an \textbf{HR management desktop application} with \textbf{JavaFX}, streamlining \textbf{employee} and \textbf{admin workflows}, reducing manual tasks by \textbf{30\%} and improving data management efficiency by \textbf{40\%}. Integrated \textbf{MySQL} for data storage and management, enabling \textbf{CRUD operations} with \textbf{25\% faster data retrieval}. Developed \textbf{3+ modules} for payroll, attendance, and performance tracking, reducing HR task processing time by \textbf{25\%}.}
+           \resumeItem{Designed a custom \textbf{ORM} for abstracting database operations, improving code maintainability by \textbf{20\%} and reducing development time. Incorporated a \textbf{user-friendly GUI} following the \textbf{MVC design pattern}, enabling modularity and enhancing scalability for future feature additions, reducing development time by \textbf{15\%}.}
+           \resumeItem{Implemented \textbf{JUnit tests} for \textbf{user login} functionality, including \textbf{5+ test cases} for valid and invalid login attempts, ensuring robust validation of user credentials, security measures, and error handling. Achieved \textbf{90\% test coverage} for authentication logic, improving system reliability and reducing bug rates.}
+          \resumeItemListEnd
+ \vspace{-17pt}
+ \resumeProjectHeading
+{\textbf{{JokeHub}} $|$ \emph{\href{https://play.google.com/apps/internaltest/4700862159628280575}{Play Store}{ $|$ }\href{https://github.com/khadkaankit85/JokeHub}{Source Code}}}{React Native$|$ TypeScript $|$ Expo}
+\\[5mm]
+\resumeItemListStart
+\resumeItem{Built a \textbf{React Native mobile app} with \textbf{Expo Router}, featuring a database of \textbf{10,000+ jokes} and using \textbf{Context API} for state management. Released the app for \textbf{internal testing} in compliance with Google Play's new requirements, with plans for broader availability following the \textbf{14-day testing phase}.}
+\resumeItem{Released \textbf{multiple versions} of the app on the \textbf{Google Play Store}, configuring \textbf{Expo} and \textbf{React Native} for smooth deployment. Created custom app icons and optimized assets for \textbf{5+ screen sizes}, continuously improving features based on \textbf{100+ user feedbacks} from the testing phase.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\vspace{0pt}
+
+  %-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{   
+     \textbf{Languages}{: TypeScript, JavaScript, Java, SQL, HTML5, CSS, Python, F Sharp} \\[1mm]
+     \textbf{Developer Tools}{: AWS, Postman, Git, Github, Linux, Docker, Jira, NeoVim} \\[1mm]
+     \textbf{Libraries/Frameworks}{: Express, ReactJS, NextJS, NodeJS, MySQL, Mongoose, Prisma,Tailwind CSS} \\ [1mm]
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+ \vspace{3pt}
+\vspace{10pt}
+
+\vspace{-15pt}
+
+
+
+\end{document}
